@@ -198,6 +198,7 @@
                             <constraint firstItem="oEA-x2-kXg" firstAttribute="trailing" secondItem="swn-O2-tJU" secondAttribute="trailing" id="kSZ-Fd-keT"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="bTW-Ui-gtn"/>
                     <connections>
                         <outlet property="contentView" destination="swn-O2-tJU" id="jv0-jd-iQm"/>
                     </connections>
@@ -269,6 +270,7 @@
                             <constraint firstItem="Q6I-hj-TEz" firstAttribute="leading" secondItem="enI-ny-yJg" secondAttribute="leading" id="qMn-ld-rnt"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="AoR-Uu-5a2"/>
                     <connections>
                         <outlet property="contentView" destination="Q6I-hj-TEz" id="YBk-bI-K0J"/>
                     </connections>
@@ -340,6 +342,7 @@
                             <constraint firstAttribute="trailing" secondItem="6rc-rp-yom" secondAttribute="trailing" id="zUg-dO-7bW"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vyg-wg-pN2"/>
                     <connections>
                         <outlet property="contentView" destination="6rc-rp-yom" id="q4j-Op-4vu"/>
                     </connections>
@@ -411,6 +414,7 @@
                             <constraint firstItem="He3-Cv-6eq" firstAttribute="trailing" secondItem="eCu-RA-J3C" secondAttribute="trailing" id="tum-WC-8ER"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="dTD-8d-HfC"/>
                     <connections>
                         <outlet property="contentView" destination="He3-Cv-6eq" id="jVT-FH-qQa"/>
                     </connections>
@@ -482,6 +486,7 @@
                             <constraint firstItem="Oad-nZ-CZW" firstAttribute="top" secondItem="VDH-Mp-BUq" secondAttribute="top" id="Vs4-id-WPD"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="xsX-8M-0eG"/>
                     <connections>
                         <outlet property="contentView" destination="Oad-nZ-CZW" id="WdF-fj-Sx5"/>
                     </connections>
