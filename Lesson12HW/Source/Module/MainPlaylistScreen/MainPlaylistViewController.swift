@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainPlaylistViewController: UIViewController {
+class MainPlaylistViewController: UIViewController, UITableViewDelegate {
     
     @IBOutlet weak var contentView: MainPlaylistView!
     var model: MainPlaylistModel!
@@ -43,26 +43,26 @@ extension MainPlaylistViewController: MainPlaylistViewDelegate {
 
 extension MainPlaylistViewController: UITableViewDataSource {
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return model.items.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "MainPlaylistCell")
-        else {
-            assertionFailure()
-            return UITableViewCell()
+        
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return model.items.count
         }
         
-        cell.textLabel?.text = model.items[indexPath.row].songTitle
-        
-        return cell
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "MainPlaylistCell") 
+            else {
+                return UITableViewCell(style: .subtitle, reuseIdentifier: "MainPlaylistCell")
+            }
+            
+            let song = model.items[indexPath.row]
+            cell.textLabel?.numberOfLines = 0
+            cell.textLabel?.text = """
+                    Автор: \(song.author)
+                    Назва пісні: \(song.songTitle)
+                    Альбом: \(song.albumTitle)
+                    Жанр: \(song.genre)
+                    """
+            return cell
+        }
     }
-}
 
-extension MainPlaylistViewController: UITableViewDelegate {
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-    }
-}

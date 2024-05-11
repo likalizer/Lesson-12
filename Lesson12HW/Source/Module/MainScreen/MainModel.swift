@@ -22,7 +22,7 @@ class MainModel {
         
         self.items = [
             TaskItem(
-                title: "Завдання 1:\nПоказати список з повною інформацією про музику однією секцією",
+                title: "Playlist",
                 type: .showLsit
             ),
             TaskItem(
