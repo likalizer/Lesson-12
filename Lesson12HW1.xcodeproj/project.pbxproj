@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B09A202BFE7A1F007EF79C /* PlaylistModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B09A1F2BFE7A1F007EF79C /* PlaylistModesView.swift */; };
 		CE4715042BBAC38F00759142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4715032BBAC38F00759142 /* AppDelegate.swift */; };
 		CE4715062BBAC38F00759142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4715052BBAC38F00759142 /* SceneDelegate.swift */; };
 		CE47150B2BBAC38F00759142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4715092BBAC38F00759142 /* Main.storyboard */; };
@@ -38,10 +39,10 @@
 		CE47156E2BBC306F00759142 /* PlaylistByGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47156D2BBC306F00759142 /* PlaylistByGenreView.swift */; };
 		CE4715712BBC31C700759142 /* PlaylistModesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4715702BBC31C700759142 /* PlaylistModesViewController.swift */; };
 		CE4715732BBC31D000759142 /* PlaylistModesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4715722BBC31D000759142 /* PlaylistModesModel.swift */; };
-		CE4715752BBC31D800759142 /* PlaylistModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4715742BBC31D800759142 /* PlaylistModesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10B09A1F2BFE7A1F007EF79C /* PlaylistModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModesView.swift; sourceTree = "<group>"; };
 		CE4715002BBAC38F00759142 /* Lesson12HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson12HW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4715032BBAC38F00759142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4715052BBAC38F00759142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +76,6 @@
 		CE47156D2BBC306F00759142 /* PlaylistByGenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistByGenreView.swift; sourceTree = "<group>"; };
 		CE4715702BBC31C700759142 /* PlaylistModesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModesViewController.swift; sourceTree = "<group>"; };
 		CE4715722BBC31D000759142 /* PlaylistModesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModesModel.swift; sourceTree = "<group>"; };
-		CE4715742BBC31D800759142 /* PlaylistModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,7 +292,7 @@
 			children = (
 				CE4715702BBC31C700759142 /* PlaylistModesViewController.swift */,
 				CE4715722BBC31D000759142 /* PlaylistModesModel.swift */,
-				CE4715742BBC31D800759142 /* PlaylistModesView.swift */,
+				10B09A1F2BFE7A1F007EF79C /* PlaylistModesView.swift */,
 			);
 			path = PlaylistModesScreen;
 			sourceTree = "<group>";
@@ -332,7 +332,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE4714FB2BBAC38F00759142 /* Build configuration list for PBXProject "Lesson12HW" */;
+			buildConfigurationList = CE4714FB2BBAC38F00759142 /* Build configuration list for PBXProject "Lesson12HW1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -376,7 +376,7 @@
 				CE47156C2BBC306300759142 /* PlaylistByGenreModel.swift in Sources */,
 				CE4715672BBC2D8C00759142 /* PlaylistMoveDeleteView.swift in Sources */,
 				CE4715442BBB0CEC00759142 /* MainPlaylistView.swift in Sources */,
-				CE4715752BBC31D800759142 /* PlaylistModesView.swift in Sources */,
+				10B09A202BFE7A1F007EF79C /* PlaylistModesView.swift in Sources */,
 				CE4715212BBADC7800759142 /* InitialViewController.swift in Sources */,
 				CE47155C2BBC26A300759142 /* PlaylistDeleteViewController.swift in Sources */,
 				CE4715732BBC31D000759142 /* PlaylistModesModel.swift in Sources */,
@@ -604,7 +604,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE4714FB2BBAC38F00759142 /* Build configuration list for PBXProject "Lesson12HW" */ = {
+		CE4714FB2BBAC38F00759142 /* Build configuration list for PBXProject "Lesson12HW1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE4715122BBAC39000759142 /* Debug */,
